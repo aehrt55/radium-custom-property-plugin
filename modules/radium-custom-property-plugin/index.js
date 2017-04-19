@@ -12,7 +12,7 @@ export default function customPropertyPlugin(arg1 = {}) {
     const newStyle = Object.entries(style).reduce((newStyleInProgress, [key, value]) => {
       if (isCustomKey(key)) {
         const ruleCSS = cssRuleSetToString('', appendImportantToEachValue(value), config.userAgent);
-        className = `susu-rad-${hash(ruleCSS)}`;
+        className = `susu-custom-${hash(ruleCSS)}`;
         const css = `.${className}${ruleCSS}`;
         addCSS(css);
       } else {
