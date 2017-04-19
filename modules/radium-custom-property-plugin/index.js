@@ -1,5 +1,5 @@
 export default function customPropertyPlugin(arg1 = {}) {
-  const isCustomKey = (key) => (key === arg1.key || ':data');
+  const isCustomKey = (key) => (key === (arg1.key || ':data'));
   const main = ({
     addCSS,
     appendImportantToEachValue,
