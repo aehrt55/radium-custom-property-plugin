@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "radium-custom-property-plugin",
+  "main": "./index.js"
+}
