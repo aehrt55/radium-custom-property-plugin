@@ -1,6 +1,6 @@
 {
   "name": "@sususite/radium-custom-property-plugin",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/aehrt55/radium-custom-property-plugin"
