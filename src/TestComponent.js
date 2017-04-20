@@ -6,6 +6,15 @@ const style = {
   color: '#123456',
   ':data': {
     color: 'red',
+    ':hover': {
+      color: 'blue',
+    },
+    ':after': {
+      content: '\'a\'',
+    },
+    ':hover:after': {
+      color: 'green',
+    },
   },
 };
 
